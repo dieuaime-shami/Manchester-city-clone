@@ -7,6 +7,10 @@ import UoMake from '../assets/image/UoMake.jpg'
 import ManchesterSkyline from '../assets/image/ManchesterSkyline.jpg'
 import researchimpact from '../assets/image/researchimpact.jpg'
 import uomresearch from '../assets/image/uomresearch.jpg'
+import festbusiness from '../assets/image/festbusiness.jpg'
+import allianceBus from '../assets/image/allianceBus.jpg'
+import QSrankings from '../assets/image/QSrankings.jpg'
+import arwu2025 from '../assets/image/arwu2025.jpg'
 
 const page = () => {
   return (
@@ -88,8 +92,9 @@ const page = () => {
         </div>
      </div>
 
+
+        {/* Research */}
      <div className='w-full bg-gray-200 py-5'>
-        {/* Pupular links */}
      <div className='mx-30 my-10'>
       <p className='text-5xl font-thin my-5'>Research</p>
         <div className='grid grid-cols-3 gap-x-3'>
@@ -111,6 +116,38 @@ const page = () => {
         </div>
      </div>
      </div>
+
+     {/* News */}
+     <div className='w-full px-23 py-10'>
+      <div className='w-full flex justify-between px-15 py-5'>
+        <p className='text-5xl font-thin'>News</p>
+        <p className='text-2xl font-thin text-violet-700 underline'>All news</p>
+      </div>
+      {/* cards */}
+      <div className='grid grid-cols-4 gap-x-10'>
+        <div>
+            <img src={festbusiness} alt="" />
+            <p className='text-2xl py-3'>Festival of Business to mark 60 years of AMBS</p>
+            <p className='text-lg'>To mark its 60th anniversary,Alliance Manchester Business school(AMBS) is bringing back its Festival of Business, expanding on the sucess of last year's event.</p>
+        </div>
+        <div>
+          <img src={arwu2025} alt="" />
+          <p className='text-2xl py-3'>Manchester 46th in the world in academic rankings</p>
+          <p className='text-lg'>The University has risen to 46th globally in the 2025 Academic Ranking of World Universities (ARWU).</p>
+        </div>
+        <div>
+          <img src={allianceBus} alt="" />
+          <p className='text-2xl py-3'>Remembering Lord David Alliance CBE</p>
+          <p className='text-lg'>It is with great sadness that we have learnt about the passing of Lord David Alliance CBE.</p>
+        </div>
+        <div>
+            <img src={QSrankings} alt="" />
+            <p className='text-2xl py-3'>Manchester holds firm as a global leader in QS World University Rankings</p>
+            <p className='text-lg'> Manchester ranks 35th globally and 7th in the UK,highlighting its world teaching research strength and societal impact.</p>
+        </div>
+      </div>
+     </div>
+
     </div>
   )
 }
