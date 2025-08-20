@@ -14,6 +14,9 @@ import arwu2025 from '../assets/image/arwu2025.jpg'
 import iStockone from '../assets/image/iStockone.jpg'
 import internationalCentres from '../assets/image/internationalCentres.jpg'
 import InternationalEducation from '../assets/image/InternationalEducation.jpg'
+import BusinessEngagement from '../assets/image/BusinessEngagement.jpg'
+import Policy from '../assets/image/Policy.jpg'
+import SupportManchester from '../assets/image/SupportManchester.jpg'
 
 const page = () => {
   return (
@@ -177,6 +180,30 @@ const page = () => {
           </div>
         </div>
      </div>
+     </div>
+
+      {/* Collaborate*/}
+     <div className='mx-30 my-10'>
+      <p className='text-4xl font-thin py-5'>Collaborate</p>
+        <div className='grid grid-cols-3 gap-x-3'>
+          <div className='relative'>
+            <img src={BusinessEngagement} className='' />
+            <button className='bg-gray-100 py-4 px-4 absolute bottom-19 text-xl'>Services for business</button>
+            <p className='text-lg mt-5 px-5'>We know the value of working together. Our expertise can help you achieve you business objectives.</p>
+          </div>
+          <div className='relative'>
+            <img src={Policy} alt="" />
+            <button className='bg-gray-100 py-4 px-4 absolute bottom-19 text-xl'>Policy</button>
+            <p className='text-lg mt-4 px-5'>We engage policymaker, thinkers,researchers, the media and the public with our
+              work, informing policy in the UK around the world.
+            </p>
+          </div>
+          <div className='relative'>
+            <img src={SupportManchester} alt="" />
+            <button className='bg-gray-100 py-4 px-4 absolute bottom-19 text-xl'>Give to Manchester</button>
+            <p className='text-lg mt-4 px-5'>Your support helps our researchers and graduates to build a more pogressive, responsible world.</p>
+          </div>
+        </div>
      </div>
 
     </div>
