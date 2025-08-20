@@ -11,6 +11,9 @@ import festbusiness from '../assets/image/festbusiness.jpg'
 import allianceBus from '../assets/image/allianceBus.jpg'
 import QSrankings from '../assets/image/QSrankings.jpg'
 import arwu2025 from '../assets/image/arwu2025.jpg'
+import iStockone from '../assets/image/iStockone.jpg'
+import internationalCentres from '../assets/image/internationalCentres.jpg'
+import InternationalEducation from '../assets/image/InternationalEducation.jpg'
 
 const page = () => {
   return (
@@ -146,6 +149,34 @@ const page = () => {
             <p className='text-lg'> Manchester ranks 35th globally and 7th in the UK,highlighting its world teaching research strength and societal impact.</p>
         </div>
       </div>
+     </div>
+
+      {/* Global influence */}
+     <div className='w-full bg-gray-200 py-5'>
+     <div className='mx-30 my-10'>
+      <p className='text-5xl font-thin my-5'>Global influence</p>
+        <div className='grid grid-cols-3 gap-x-3'>
+          <div className='relative'>
+            <img src={iStockone} className='' />
+            <button className='bg-gray-100 py-4 px-4 absolute bottom-19 text-xl'>Global partnerships</button>
+            <p className='text-lg mt-5 px-2'> Discover our pioneering partnerships with key institutions across the globe
+              including the Melbourne-Toronto Alliane.
+            </p>
+          </div>
+          <div className='relative'>
+            <img src={internationalCentres} alt="" />
+            <button className='bg-gray-100 py-4 px-4 absolute bottom-19 text-xl'>Global centres</button>
+            <p className='text-lg mt-4'>Our global centres offer a diverse portfolio of distance and 
+              blended learning programmes.
+            </p>
+          </div>
+          <div className='relative'>
+            <img src={InternationalEducation} alt="" />
+            <button className='bg-gray-100 py-4 px-4 absolute bottom-19 text-xl'>International education</button>
+            <p className='text-lg mt-4'>We welcome one the largest international student populations in the UK to our university every year.</p>
+          </div>
+        </div>
+     </div>
      </div>
 
     </div>
