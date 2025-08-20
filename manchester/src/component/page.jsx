@@ -4,6 +4,9 @@ import homepageSmaller from '../assets/image/homepageSmaller.jpg'
 import AlanG500 from '../assets/image/AlanG500.jpg'
 import sevenBros from '../assets/image/sevenBros.jpg'
 import UoMake from '../assets/image/UoMake.jpg'
+import ManchesterSkyline from '../assets/image/ManchesterSkyline.jpg'
+import researchimpact from '../assets/image/researchimpact.jpg'
+import uomresearch from '../assets/image/uomresearch.jpg'
 
 const page = () => {
   return (
@@ -67,18 +70,46 @@ const page = () => {
      {/* Pupular links */}
      <div className='mx-30 my-10'>
         <div className='grid grid-cols-3 gap-x-3'>
-          <div>
-            <img src={UoMake} alt="" />
-            <button>Manchester 2035</button>
-            <p>Read the latest on <span>Manchester 2025</span> as we move into the third phase of the strategy process.</p>
+          <div className='relative'>
+            <img src={UoMake} className='' />
+            <button className='bg-gray-100 py-4 px-4 absolute bottom-19 text-xl'>Manchester 2035</button>
+            <p className='text-lg mt-5'>Read the latest on <span className='italic text-gray-500'>Manchester 2025</span> as we move into the third phase of the strategy process.</p>
           </div>
-          <div>
+          <div className='relative'>
             <img src={sevenBros} alt="" />
+            <button className='bg-gray-100 py-4 px-4 absolute bottom-19 text-xl'>Manchester 2035</button>
+            <p className='text-lg mt-4'>Discover what student support services are available during the summer break</p>
           </div>
-          <div>
+          <div className='relative'>
             <img src={AlanG500} alt="" />
+            <button className='bg-gray-100 py-4 px-4 absolute bottom-19 text-xl'>Manchester 2035</button>
+            <p className='text-lg mt-4'>Join our campus tour (21 August) to explore if Manchester is the place for you.</p>
           </div>
         </div>
+     </div>
+
+     <div className='w-full bg-gray-200 py-5'>
+        {/* Pupular links */}
+     <div className='mx-30 my-10'>
+      <p className='text-5xl font-thin my-5'>Research</p>
+        <div className='grid grid-cols-3 gap-x-3'>
+          <div className='relative'>
+            <img src={ManchesterSkyline} className='' />
+            <button className='bg-gray-100 py-4 px-4 absolute bottom-19 text-xl'>Research beacons</button>
+            <p className='text-lg mt-5'>Pioneering research discoveries in advanced materials, biotechnology,cancer,energy and global inequalities</p>
+          </div>
+          <div className='relative'>
+            <img src={researchimpact} alt="" />
+            <button className='bg-gray-100 py-4 px-4 absolute bottom-19 text-xl'>Impact</button>
+            <p className='text-lg mt-4'>We're delivering innovative solutions to the world's biggest challenges and transforming lives.</p>
+          </div>
+          <div className='relative'>
+            <img src={uomresearch} alt="" />
+            <button className='bg-gray-100 py-4 px-4 absolute bottom-19 text-xl'>Research Explorer</button>
+            <p className='text-lg mt-4'>Find out more about our researchers, publications and projects.</p>
+          </div>
+        </div>
+     </div>
      </div>
     </div>
   )
