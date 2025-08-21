@@ -17,6 +17,20 @@ import InternationalEducation from "../assets/image/InternationalEducation.jpg";
 import BusinessEngagement from "../assets/image/BusinessEngagement.jpg";
 import Policy from "../assets/image/Policy.jpg";
 import SupportManchester from "../assets/image/SupportManchester.jpg";
+import ConnectJobs from "../assets/image/ConnectJobs.jpg";
+import alumnipromo from "../assets/image/alumnipromo.jpg";
+import TeachersCareers from "../assets/image/TeachersCareers.jpg";
+import jodrell from "../assets/image/jodrell.jpg";
+import JohnRylands from "../assets/image/JohnRylands.jpg";
+import ManchesterMuseum from "../assets/image/ManchesterMuseum.jpg";
+import manchesterchristmas from "../assets/image/manchesterchristmas.jpg";
+import theWhitworth from "../assets/image/theWhitworth.jpg";
+import sactuaryAward from "../assets/image/sactuaryAward.jpg";
+import Platinumengagelogo from "../assets/image/Platinumengagelogo.jpg";
+import charters from "../assets/image/charters.jpg";
+import AthenaSwan from "../assets/image/AthenaSwan.jpg";
+import livingwage from "../assets/image/livingwage.png";
+import icons from "../assets/image/icons.png";
 
 const page = () => {
   return (
@@ -288,7 +302,7 @@ const page = () => {
         <div className="grid grid-cols-3 gap-x-3">
           <div className="relative">
             <img src={BusinessEngagement} className="" />
-            <button className="bg-gray-100 py-4 px-4 absolute bottom-19 text-xl">
+            <button className="bg-gray-100 py-4 px-4 absolute bottom-25 text-xl">
               Services for business
             </button>
             <p className="text-lg mt-5 px-5">
@@ -298,7 +312,7 @@ const page = () => {
           </div>
           <div className="relative">
             <img src={Policy} alt="" />
-            <button className="bg-gray-100 py-4 px-4 absolute bottom-19 text-xl">
+            <button className="bg-gray-100 py-4 px-4 absolute bottom-25 text-xl">
               Policy
             </button>
             <p className="text-lg mt-4 px-5">
@@ -308,7 +322,7 @@ const page = () => {
           </div>
           <div className="relative">
             <img src={SupportManchester} alt="" />
-            <button className="bg-gray-100 py-4 px-4 absolute bottom-19 text-xl">
+            <button className="bg-gray-100 py-4 px-4 absolute bottom-25 text-xl">
               Give to Manchester
             </button>
             <p className="text-lg mt-4 px-5">
@@ -347,6 +361,231 @@ const page = () => {
           </div>
         </div>
       </div>
+
+      {/* Connect*/}
+      <div className="mx-30 my-10">
+        <p className="text-4xl font-thin py-5">Connect</p>
+        <div className="grid grid-cols-3 gap-x-3">
+          <div className="relative">
+            <img src={ConnectJobs} className="" />
+            <button className="bg-gray-100 py-4 px-4 absolute bottom-19 text-xl">
+              Job
+            </button>
+            <p className="text-lg mt-5 px-9">
+              We offer every kind od role imaginable. From local talent to global experts, 
+              we want to hear from you
+            </p>
+          </div>
+          <div className="relative">
+            <img src={alumnipromo} alt="" />
+            <button className="bg-gray-100 py-4 px-4 absolute bottom-19 text-xl">
+              Alumni
+            </button>
+            <p className="text-lg mt-4 px-5">
+              From career support to events and volunteering, your alumni community is here for you.
+            </p>
+          </div>
+          <div className="relative">
+            <img src={TeachersCareers} alt="" />
+            <button className="bg-gray-100 py-4 px-4 absolute bottom-19 text-xl">
+              Teachers and careers advisers
+            </button>
+            <p className="text-lg mt-4 px-5">
+              Our tailored support services and engaging activities for pupils of all ages will help
+              make you job easier.
+            </p>
+          </div>
+        </div>
+      </div>
+
+        
+        {/* Explore Manchester */}
+        <div className="w-full bg-gray-200 py-5">
+          <div className="mx-30 my-10">
+             <p className="text-5xl font-thin text-gray-700 ">Explore Manchester</p>
+            <div className="grid grid-cols-3 border border-black">
+              <div className="grid col-span-2 border border-black">
+                <img src={jodrell} className="w-full" />
+                <div>
+                  <p>Jodrell Bank</p>
+                  <p>Our jodrell Bank Observator (a UNESCO World Heritage Site) is home to 
+                    giant Lovell Telscope.
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid col-span-1 border border-black">
+                <img src={JohnRylands} className="w-full"/>
+                <div>
+                  <p>Jodrell Bank</p>
+                  <p>Our jodrell Bank Observator (a UNESCO World Heritage Site) is home to 
+                    giant Lovell Telscope.
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid col-span-1 border border-black">
+                <img src={ManchesterMuseum} className="w-full" />
+                <div>
+                  <p>Jodrell Bank</p>
+                  <p>Our jodrell Bank Observator (a UNESCO World Heritage Site) is home to 
+                    giant Lovell Telscope.
+                  </p>
+                </div>
+              </div>
+
+
+                <div className="grid col-span-1 border border-black">
+                <img src={manchesterchristmas} className="w-full" />
+                <div>
+                  <p>Jodrell Bank</p>
+                  <p>Our jodrell Bank Observator (a UNESCO World Heritage Site) is home to 
+                    giant Lovell Telscope.
+                  </p>
+                </div>
+              </div>
+              
+
+              <div className="grid col-span-2 border border-black">
+                <img src={theWhitworth} className="w-full" />
+                <div>
+                  <p>Jodrell Bank</p>
+                  <p>Our jodrell Bank Observator (a UNESCO World Heritage Site) is home to 
+                    giant Lovell Telscope.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+          
+          {/* Awards and accreditations */}
+        
+         <div className="w-full px-23 py-10">
+        <div className="w-full px-50 py-5">
+          <p className="text-4xl font-thin">Awards and accreditations</p>
+        </div>
+        {/* cards */}
+        <div className="grid grid-cols-5 gap-x-10">
+          <div>
+            <img src={sactuaryAward} alt="" />
+            <p className="text-xl py-3">
+              University of Sanctuary
+            </p>
+            <p className="text-sm">
+              We are commited to creating welcoming and safe place for refugees and asylum
+              seekers.
+            </p>
+          </div>
+
+          <div>
+            <img src={Platinumengagelogo} alt="" />
+            <p className="text-xl py-3">
+              Platinum Watermark
+            </p>
+            <p className="text-sm px-2">
+              This award recognises our excellence in delivering and supporting public engagement.
+            </p>
+          </div>
+
+          <div>
+            <img src={charters} alt="" />
+            <p className="text-xl py-3">Race Equality Charter</p>
+            <p className="text-sm">
+              We have a Race Equality Charter Silver Award through AdvanceHE for excellence in advancing racial equality in higher education.
+            </p>
+          </div>
+
+           <div>
+            <img src={livingwage} alt="" />
+            <p className="text-xl py-3">Living Wage Foundation</p>
+            <p className="text-sm px-3">
+              We are proud to be accredited for our commitment to paying our people a real living wage.
+            </p>
+          </div>
+
+          <div>
+            <img src={AthenaSwan} alt="" />
+            <p className="text-xl py-3">
+             Athen Swan Chanter
+            </p>
+            <p className="text-sm">
+              {" "}
+              We're committed to developing the careers of women is science, technolgy engineering mathematics and medicine
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* semifooter */}
+      <div className="w-full bg-gray-200  px-70 py-13">
+      <p className="text-2xl font-thin mb-4">Quick links</p>
+      <div className="grid grid-cols-3 ">
+      <div>
+        <ul className="space-y-2 text-gray-600">
+          <li>Maps and travel</li>
+          <li>University Gift Shop</li>
+          <li>Conference venues</li>
+          <li>The university of Manchester Libray</li>
+          <li>Key academic dates</li>
+          <li>Faculties and schools</li>
+          <li>Interdisciplinary research</li>
+        </ul>
+        </div>
+        <div>
+          <ul className="space-y-2 text-gray-600">
+            <li>Jodrell Bank Discovery Centre</li>
+            <li>John Rylands Research Institute and Library</li>
+            <li>Manchester Museum</li>
+            <li>The Whitworth</li>
+            <li>StaffNet</li>
+            <li>My Manchester (for students)</li>
+            <li>Your Manchester (for alumni)</li>
+          </ul>
+        </div>
+        <div>
+          <ul className="space-y-2 text-gray-600">
+            <li>Information for investors</li>
+            <li>Modern Slavery Act statement</li>
+            <li>Criminal Finance Act statement</li>
+            <li>Student terms and conditions</li>
+            <li>A-Z index</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+
+      <div className="w-full bg-gray-900 px-90 grid grid-cols-3 py-7">
+        <div className="text-white">
+          <p className="text-lg mb-4">Contact Us</p>
+          <div className="text-gray-300 space-y-2">
+            <p className="underline">+44(0) 161 306 6000</p>
+            <p>Call recording policy</p>
+            <p>Contact details</p>
+          </div>
+        </div>
+
+        <div className="text-white">
+          <p className="text-lg mb-4">Find Us</p>
+          <div className="text-gray-300 space-y-1">
+            <p>The university of Manchester</p>
+            <p>Oxford Rd</p>
+            <p>Manchester</p>
+            <p>M13 9PL</p>
+            <p>UK</p>
+          </div>
+        </div>
+
+        <div className="text-white">
+          <p className="text-lg mb-4">Contact with us</p>
+          <div>
+            <img src={icons} alt="" />
+            <p className="text-gray-400">Contact details</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 };
